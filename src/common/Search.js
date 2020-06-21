@@ -24,7 +24,7 @@ export default function SearchWeather() {
       <Form>
         <Grid>
           <Grid.Row>
-            <Grid.Column width="12">
+            <Grid.Column width="13">
               <Form.Field>
                 <input
                   placeholder="Search for a city to see it's weather data"
@@ -34,7 +34,7 @@ export default function SearchWeather() {
                 />
               </Form.Field>
             </Grid.Column>
-            <Grid.Column width="4">
+            <Grid.Column width="3">
               <Form.Field>
                 <Button
                   type="submit"
